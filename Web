@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monday - Retro Meme Coin on Monad</title>
+    <style>
+        /* Retro CRT-inspired styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #000;
+            color: #00FF00; /* Neon green */
+            font-family: 'Courier New', Courier, monospace;
+            line-height: 1.6;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: radial-gradient(circle, rgba(0, 255, 0, 0.1), #000);
+            border: 4px solid #333;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 48px;
+            text-transform: uppercase;
+            color: #FF00FF; /* Neon pink */
+            text-shadow: 0 0 10px #FF00FF, 0 0 20px #FF00FF;
+            animation: flicker 1.5s infinite alternate;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #00FFFF; /* Cyan */
+            margin: 20px 0;
+        }
+
+        p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #FF00FF;
+            color: #000;
+            text-decoration: none;
+            font-weight: bold;
+            border: 2px solid #00FF00;
+            margin: 10px;
+            transition: all 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #00FF00;
+            color: #FF00FF;
+            box-shadow: 0 0 10px #00FF00;
+        }
+
+        hr {
+            border: none;
+            height: 2px;
+            background: repeating-linear-gradient(
+                90deg,
+                #00FF00 0px,
+                #00FF00 4px,
+                #000 4px,
+                #000 8px
+            );
+            margin: 20px 0;
+        }
+
+        @keyframes flicker {
+            0% { opacity: 1; }
+            50% { opacity: 0.8; }
+            100% { opacity: 1; }
+        }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 32px; }
+            h2 { font-size: 20px; }
+            p { font-size: 16px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Monday</h1>
+        <p>Start Your Week with a Moonshot!</p>
+        <hr>
+
+        <h2>$MONDAY - Retro Meme Coin</h2>
+        <p>Live on testnet.monad.fun with 10,000 TPS and 1-second blocks. Retro vibes, lightning speed.</p>
+
+        <h2>Tokenomics</h2>
+        <p>Total Supply: 420,690,000,000 $MONDAY<br>
+           50% Liquidity | 20% Airdrop | 15% Staking | 10% Marketing | 5% Team<br>
+           1% Burn per TX | 2% to Stakers</p>
+
+        <h2>Get Involved</h2>
+        <p>Airdrop: First 10,000 testnet.monad.fun wallets snag 1,000 $MONDAY free!</p>
+        <a href="https://forms.gle/YOUR_GOOGLE_FORM_LINK" class="btn">Claim Airdrop</a>
+        <a href="https://discord.gg/YOUR_DISCORD_INVITE" class="btn">Join Discord</a>
+        <a href="https://testnet.monad.fun" class="btn">Explore Testnet</a>
+        <hr>
+
+        <p>Powered by Monad - Deployed on testnet.monad.fun, Feb 2025</p>
+    </div>
+</body>
+</html>
